@@ -45,7 +45,5 @@ jobs:
     - name: Push to Heroku staging
       run: |
         git add .
-        git commit -m "Initial commit"
-        git checkout -b main
-        git branch -D master
-        git push heroku main -f
+        git commit -m "commit 830"
+        git push -f heroku master
