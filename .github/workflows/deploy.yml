@@ -45,5 +45,5 @@ jobs:
     - name: Push to Heroku staging
       run: |
         git add .
-        git commit -m "Added with .env"
-        git push heroku master -f
+        git commit -m "Initial commit"
+        git push heroku main -f
