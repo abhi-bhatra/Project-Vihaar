@@ -2,11 +2,11 @@ name: STATIC WEBSITE CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   deployToStage:     
@@ -40,7 +40,7 @@ jobs:
       run: |
         git config --global user.email "abhinavsharma.cse23@jecrc.ac.in"
         git config --global user.name "abhi-bhatra"
-        heroku git:remote --app vihaar
+        heroku git:remote --app vihaar-prod
 
     - name: Push to Heroku staging
       run: |
