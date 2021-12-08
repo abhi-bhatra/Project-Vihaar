@@ -46,4 +46,6 @@ jobs:
       run: |
         git add .
         git commit -m "Initial commit"
-        git push heroku master -f
+        git checkout -b main
+        git branch -D master
+        git push heroku main -f
