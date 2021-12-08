@@ -1,3 +1,6 @@
-# Kahaar.github.io
+# Project - Vihaar
 
-This wbsite make for on of my close friend who want to start-up their ideas!
+This is a Tourism and Travel frontend Website, demonstrated to be deployed in Google Cloud Run, using Google Cloud Build and Docker.
+Image use: Nginx:alpine
+Tech Stack: HTML, CSS
+
