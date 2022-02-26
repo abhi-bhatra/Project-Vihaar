@@ -1,0 +1,1 @@
+app is simple HTML but faked as PHP
